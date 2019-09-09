@@ -4,13 +4,14 @@
   "description": "Storybook Components, Documentation Generator, and Shared GitHub Templates",
   "main": "dist/exports.js",
   "bin": {
-    "hospitalrun-docs": "./dist/hospitalrun-docs.js"
+    "hospitalrun-docs": "./dist/bin/hospitalrun-docs.js"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && symlink-dir ./build/ ./dist/build",
     "build:cli": "tsc src/bin/hospitalrun-docs.ts --outDir ./dist && npm run copy:templates",
     "copy:templates": "ncp ./src/templates/ ./dist/templates && ncp ./src/bin/README.md.hbs ./dist/bin/README.md.hbs",
+    "docs": "node ./dist/bin/hospitalrun-docs.js generate",
     "prepare": "npm run build && npm run build:cli",
     "test": "react-scripts test --passWithNoTests",
     "eject": "react-scripts eject",
