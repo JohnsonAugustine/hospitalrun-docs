@@ -8,11 +8,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && symlink-dir ./build/ ./dist/build",
+    "build": "react-scripts build && symlink-dir ./build/ ./dist/build && npm run build:cli",
     "build:cli": "tsc src/bin/hospitalrun-docs.ts --outDir ./dist && npm run copy:templates",
     "copy:templates": "ncp ./src/templates/ ./dist/templates && ncp ./src/bin/README.md.hbs ./dist/bin/README.md.hbs",
     "docs": "node ./dist/bin/hospitalrun-docs.js generate",
-    "prepare": "npm run build && npm run build:cli",
+    "prepare": "npm run build",
     "test": "react-scripts test --passWithNoTests",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
