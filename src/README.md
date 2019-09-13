@@ -1,6 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Documentation Application
+> Application that servers public documentation on how to use Hospital Run. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Available CRA Scripts
 
 In the project directory, you can run:
 ### `npm storybook`
@@ -43,8 +44,42 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+# Modules Export
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## StoryBook Components
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### [**Readme.tsx**](https://github.com/HospitalRun/hospitalrun-docs/blob/next/src/pages/ReadmePage.tsx) 
+A standard README component, accepts Markdown string that is wrapped with the shared
+header and about us templates.
+```
+import React from 'react';
+
+import { storiesOf } from '@storybook/react';
+import ReadmePage from '@hospitalrun-org/docs';
+
+storiesOf('@hospitalrun-org/my-component', module)
+    .add('ReadmePage', () => <ReadmePage markdown={require("../src/README.md")}/>)
+```
+
+## CLI 
+
+### generate
+Looks for a `./src/README.md` and pads it with About and Header from 
+[templates](https://github.com/HospitalRun/hospitalrun-docs/tree/next/src/templates) to
+generate the `./README.md`. This also looks for a `./github` folder and copies from the
+[github template](https://github.com/HospitalRun/hospitalrun-docs/tree/next/src/templates/github)
+if it does not exist  
+
+**Adding documentation generator**
+```
+npm install @hospitalrun-org/docs --save-dev
+```
+
+**Running**
+```
+npx hospitalrun-docs generate
+```
+
+## Metadata
+ - commands: Loaded by @hospitalrun-org/cli
+ - distPath: Useful for CI
