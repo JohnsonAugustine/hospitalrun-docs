@@ -26,7 +26,6 @@ Steps to reproduce the behavior:
 Paste your code here:
 
 ```js
-
 ```
 
 ## Expected behavior
@@ -36,12 +35,10 @@ A clear and concise description of what you expected to happen.
 Paste the results here:
 
 ```js
-
 ```
 
 ## Your Environment
 
-- *node version*: 6,8,10
-- *fastify version*: >=1.0.0
-- *os*: Mac, Windows, Linux
-- *any other relevant information*
+- _node version_: 6,8,10
+- _os_: Mac, Windows, Linux
+- _any other relevant information_
