@@ -48,6 +48,7 @@
     "@types/react": "16.9.2",
     "@types/react-dom": "16.9.0",
     "@types/storybook__react": "^4.0.2",
+    "commitizen": "^4.0.3",
     "commitlint-config-gitmoji": "^1.0.1",
     "cz-emoji": "^1.1.2",
     "dateformat": "^3.0.3",
