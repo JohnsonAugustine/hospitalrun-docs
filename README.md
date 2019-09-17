@@ -1,15 +1,17 @@
-# @hospitalrun-org/docs
+# @hospitalrun/docs
+
 > Storybook Components, Documentation Generator, and Shared GitHub Templates
 
-[![dependabot](https://badgen.net/dependabot/dependabot/dependabot-core/?icon=dependabot)](https://github.com/HospitalRun/)  [![MIT](https://badgen.net/github/license/HospitalRun/)](https://github.com/HospitalRun//blob/master/LICENSE) [![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/hospitalrun)
+[![dependabot](https://badgen.net/dependabot/dependabot/dependabot-core/?icon=dependabot)](https://github.com/HospitalRun/) [![MIT](https://badgen.net/github/license/HospitalRun/)](https://github.com/HospitalRun//blob/master/LICENSE) [![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/hospitalrun)
+
 <div align="center">
-   
+
 ![hospitalrun-logo-v1](https://github.com/HospitalRun/design/blob/master/logo/logo-on-transparent.png)
-   
+
 </div>
 
 <div align="center">
-   
+
 ### Free, easy-to-use software for developing world healthcare.
 
 </div>
@@ -20,6 +22,7 @@
 ## Available CRA Scripts
 
 In the project directory, you can run:
+
 ### `npm storybook`
 
 Runs the app in the storybook mode.<br>
@@ -27,6 +30,7 @@ Will open [http://localhost:9009](http://localhost:9009) automatically
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
@@ -108,13 +112,14 @@ npx hospitalrun-docs generate
 
 ## Sponsors
 
-[![Sponsors](https://opencollective.com/hospitalrun/sponsors.svg?width=890)](https://opencollective.com/hospitalrun/contribute/sponsors-336/checkout) 
+[![Sponsors](https://opencollective.com/hospitalrun/sponsors.svg?width=890)](https://opencollective.com/hospitalrun/contribute/sponsors-336/checkout)
 
 ## Backers
 
-[![Backers](https://opencollective.com/hospitalrun/backers.svg?width=890)](https://opencollective.com/hospitalrun/contribute/backers-335/checkout) 
+[![Backers](https://opencollective.com/hospitalrun/backers.svg?width=890)](https://opencollective.com/hospitalrun/contribute/backers-335/checkout)
 
 ## Lead Maintainer
+
 [<img src="https://avatars2.githubusercontent.com/u/1620916?s=460&v=4" width="100px;"/><br /><sub><b>Maksim Sinik</b></sub>](https://github.com/fox1t)<br />
 
 ## Core Team
@@ -123,14 +128,13 @@ npx hospitalrun-docs generate
 |[<img src="https://avatars1.githubusercontent.com/u/11684?s=460&v=4" width="100px;"/><br /><sub><b>Travis Boudreaux</b></sub>](https://github.com/tjboudreaux) | [<img src="https://avatars3.githubusercontent.com/u/25089405?s=460&v=4" width="100px;"/><br /><sub><b>Stefano Casasola</b></sub>](https://github.com/irvelervel) | [<img src="https://avatars3.githubusercontent.com/u/3400442?s=460&v=4" width="100px;"/><br /><sub><b>Michael J Feher</b></sub>](https://github.com/PhearZero) | [<img src="https://avatars1.githubusercontent.com/u/25009192?s=460&v=4" width="100px;"/><br /><sub><b>Riccardo Gulin</b></sub>](https://github.com/bazuzu666) | [<img src="https://avatars0.githubusercontent.com/u/6388707?s=460&v=4" width="100px;"/><br /><sub><b>Matteo Vivona</b></sub>](https://github.com/tehKapa) |
 |---|---|---|---|---|
 
-
-## Medical Supervisor 
+## Medical Supervisor
 
 [<img src="https://avatars2.githubusercontent.com/u/24660474?s=460&v=4" width="100px;"/><br /><sub><b>M.D. Daniele Piccolo</b></sub>](https://it.linkedin.com/in/danielepiccolo)<br />
 
 ## Contributors
 
-[![Contributors](https://opencollective.com/hospitalrun/contributors.svg?width=960&button=false)](https://github.com/HospitalRun//graphs/contributors) 
+[![Contributors](https://opencollective.com/hospitalrun/contributors.svg?width=960&button=false)](https://github.com/HospitalRun//graphs/contributors)
 
 ## Founders
 

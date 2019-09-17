@@ -1,5 +1,5 @@
 {
-  "name": "@hospitalrun-org/docs",
+  "name": "@hospitalrun/docs",
   "version": "1.0.0",
   "description": "Storybook Components, Documentation Generator, and Shared GitHub Templates",
   "main": "dist/exports.js",
