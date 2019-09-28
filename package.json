@@ -7,6 +7,7 @@
     "hospitalrun-docs": "./dist/bin/hospitalrun-docs.js"
   },
   "scripts": {
+    "commit": "npx git-cz",
     "start": "react-scripts start",
     "build": "react-scripts build && symlink-dir ./build/ ./dist/build && npm run build:cli",
     "build:cli": "tsc src/bin/hospitalrun-docs.ts --outDir ./dist && npm run copy:templates",
