@@ -1,22 +1,12 @@
-# @hospitalrun/docs
+# HospitalRun Docs
 
-> Storybook Components, Documentation Generator, and Shared GitHub Templates
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![Slack](https://hospitalrun-slackin.herokuapp.com/badge.svg)](https://hospitalrun-slackin.herokuapp.com) [![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/hospitalrun)
 
-[![dependabot](https://badgen.net/dependabot/dependabot/dependabot-core/?icon=dependabot)](https://github.com/HospitalRun/) [![MIT](https://badgen.net/github/license/HospitalRun/)](https://github.com/HospitalRun//blob/master/LICENSE) [![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/hospitalrun)
-
-<div align="center">
-
-![hospitalrun-logo-v1](https://github.com/HospitalRun/design/blob/master/logo/logo-on-transparent.png)
-
-</div>
-
-<div align="center">
-
-### Free, easy-to-use software for developing world healthcare.
-
-</div>
+This repository will host Storybook Components, Documentation Generator, and Shared GitHub Templates
 
 # Documentation Application
+
 > Application that servers public documentation on how to use Hospital Run. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available CRA Scripts
@@ -68,9 +58,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## StoryBook Components
 
-### [**Readme.tsx**](https://github.com/HospitalRun/hospitalrun-docs/blob/next/src/pages/ReadmePage.tsx) 
+### [**Readme.tsx**](https://github.com/HospitalRun/hospitalrun-docs/blob/next/src/pages/ReadmePage.tsx)
+
 A standard README component, accepts Markdown string that is wrapped with the shared
 header and about us templates.
+
 ```
 import React from 'react';
 
@@ -81,28 +73,34 @@ storiesOf('@hospitalrun-org/my-component', module)
     .add('ReadmePage', () => <ReadmePage markdown={require("../src/README.md")}/>)
 ```
 
-## CLI 
+## CLI
 
 ### generate
-Looks for a `./src/README.md` and pads it with About and Header from 
+
+Looks for a `./src/README.md` and pads it with About and Header from
 [templates](https://github.com/HospitalRun/hospitalrun-docs/tree/next/src/templates) to
 generate the `./README.md`. This also looks for a `./github` folder and copies from the
 [github template](https://github.com/HospitalRun/hospitalrun-docs/tree/next/src/templates/github)
-if it does not exist  
+if it does not exist
 
 **Adding documentation generator**
+
 ```
 npm install @hospitalrun-org/docs --save-dev
 ```
 
 **Running**
+
 ```
 npx hospitalrun-docs generate
 ```
 
 ## Metadata
- - commands: Loaded by @hospitalrun-org/cli
- - distPath: Useful for CI
+
+- commands: Loaded by @hospitalrun-org/cli
+- distPath: Useful for CI
+
+<hr />
 
 # Behind HospitalRun
 
@@ -134,7 +132,7 @@ npx hospitalrun-docs generate
 
 ## Contributors
 
-[![Contributors](https://opencollective.com/hospitalrun/contributors.svg?width=960&button=false)](https://github.com/HospitalRun//graphs/contributors)
+[![Contributors](https://opencollective.com/hospitalrun/contributors.svg?width=960&button=false)](https://github.com/HospitalRun/hospitalrun-frontend/graphs/contributors)
 
 ## Founders
 
