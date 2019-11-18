@@ -56,7 +56,7 @@ jobs:
           yarn lint
       - name: Build
         run: |
-          yarn build yarn build-storybook
+          yarn build && yarn build-storybook
       - name: Run tests
         run: |
           yarn test
