@@ -57,7 +57,7 @@
     "@types/storybook__react": "~4.0.2",
     "commitizen": "^4.0.3",
     "commitlint-config-cz": "^0.12.1",
-    "cz-conventional-changelog": "^3.0.2",
+    "cz-conventional-changelog": "~3.0.2",
     "dateformat": "~3.0.3",
     "husky": "^3.0.9",
     "ncp": "~2.0.0",
