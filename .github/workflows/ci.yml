@@ -24,10 +24,10 @@ jobs:
           npm install
       - name: Build
         run: |
-          npm run build && npm run build-storybook
-      - name: Run tests
+          npm run build
+      - name: Build Storybook
         run: |
-          npm run test
+          npm run build-storybook
   yarn:
     runs-on: ${{ matrix.os }}
 
@@ -50,7 +50,7 @@ jobs:
           yarn install
       - name: Build
         run: |
-          yarn build && yarn build-storybook
-      - name: Run tests
+          yarn build
+      - name: Build Storybook
         run: |
-          yarn test
+          yarn build-storybook
