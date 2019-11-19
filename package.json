@@ -43,7 +43,7 @@
     "@storybook/addon-actions": "~5.1.11",
     "@storybook/addon-docs": "~5.2.0-alpha.0",
     "@storybook/addon-info": "~5.1.11",
-    "@storybook/addon-links": "~5.1.11",
+    "@storybook/addon-links": "~5.2.6",
     "@storybook/addon-notes": "~5.1.11",
     "@storybook/addon-options": "~5.1.11",
     "@storybook/addons": "~5.1.11",
@@ -61,7 +61,7 @@
     "dateformat": "~3.0.3",
     "husky": "^3.0.9",
     "ncp": "~2.0.0",
-    "semantic-release": "^15.13.30",
+    "semantic-release": "~15.13.30",
     "symlink-dir": "~3.1.1",
     "typescript": "~3.6.3"
   },
